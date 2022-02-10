@@ -1,30 +1,17 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import React, { useState } from 'react'
+import Player from './Components/player'
+import Playlist from './Components/playlist'
+import playlist from './Components/playlist.data'
+
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    fetch("/hello")
-      .then((r) => r.json())
-      .then((data) => setCount(data.count));
-  }, []);
-
+    const [activeSong, setActiveSong] = useState(playlist[0])
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Switch>
-          <Route path="/testing">
-            <h1>Test Route</h1>
-          </Route>
-          <Route path="/">
-            <h1>Page Count: {count}</h1>
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter>
-  );
+    <div className="app">
+        <Player activeSong={activeSong} />
+        <Playlist setActiveSong={setActiveSong} t/>
+    </div>
+  )
 }
 
-export default App;
+export default App
