@@ -1,10 +1,33 @@
+.concert-img {
+font-family: Arial, Helvetica, sans-serif;
+color: #111111;
+text-align: center;
+box-sizing: inherit;
+margin: 0px;
+padding: 20px;
+border: 0px;
+font-size: 100%;
+font-weight: normal;
+vertical-align: center;
+background: transparent;
+max-width: 95%;
+
+}
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: inherit;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  padding-top: 45px;
+  padding-bottom: 100px;
+  flex: 0 0 1200px;
+  min-height: 100vh;
+  background-color: #FFFFFF;
 }
 
 code {
