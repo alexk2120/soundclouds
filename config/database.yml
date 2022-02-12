@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: sound_cloud_development
+  database: sound_cloud_development_2_11_22_240pm
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
