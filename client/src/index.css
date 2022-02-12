@@ -2,15 +2,16 @@
 font-family: Arial, Helvetica, sans-serif;
 color: #111111;
 text-align: center;
-box-sizing: inherit;
+box-sizing: 0px;
 margin: 0px;
-padding: 20px;
+padding: 0px;
 border: 0px;
-font-size: 100%;
+font-size: 90%;
 font-weight: normal;
 vertical-align: center;
 background: transparent;
-max-width: 95%;
+max-width: 0%;
+
 
 }
 body {
