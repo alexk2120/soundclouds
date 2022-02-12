@@ -1,33 +1,50 @@
-.concert-img {
+.concert-img { 
 font-family: Arial, Helvetica, sans-serif;
 color: #111111;
 text-align: center;
 box-sizing: 0px;
 margin: 0px;
+ padding: 0px;
+border: 0px; 
+font-size: 100%;
+ font-weight: normal; 
+vertical-align: baseline;
+background: transparent;
+ max-height: 800px;   
+max-width: 1440px ;
+
+}
+.content{ 
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: inherit;
+margin: 0;
 padding: 0px;
 border: 0px;
-font-size: 90%;
+font-size: 100%;
 font-weight: normal;
 vertical-align: center;
-background: transparent;
-max-width: 0%;
-
-
+align-self: center;
+flex: 1 1 auto;
+background: #F2F2F2;
+height: 100%;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: inherit;
-  margin: 0;
+  margin: 0px
+;
   padding: 0;
   border: 0;
   font-size: 100%;
   font-weight: normal;
   vertical-align: baseline;
+  
   background: transparent;
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 100px;
   flex: 0 0 1200px;
   min-height: 100vh;
+  max-width: 1440px;
   background-color: #FFFFFF;
 }
 

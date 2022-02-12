@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import Player from './Components/player'
-import Playlist from './Components/playlist'
 import playlist from './Components/playlist.data'
-import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from  "react-router-dom";
+import { BrowserRouter, Route } from  "react-router-dom";
 
 import ButtonAppBar from './Components/ButtonAppBar';
 
@@ -14,10 +12,12 @@ function App() {
 
     
     return (
-      <><div className="app">
+      <div className="app">
+      <div className='content'>
       <ButtonAppBar /> 
-      {/* resize or find new image */}
-      {/* <div className="concert-img"> <img src = 'audience-868074-ece4ae4782c50d84f7112d207185f64a821bd40ed1d61e662c8ab98b0693c2fc.png'></img></div> */}
+      
+      <img className='concert-img' src="./audience-868074-ece4ae4782c50d84f7112d207185f64a821bd40ed1d61e662c8ab98b0693c2fc.png" alt="concert"></img> 
+       
       {/* probably switch from router to navlink */}
         <BrowserRouter>
         <Route path="/signup">
@@ -32,11 +32,10 @@ function App() {
   <Player activeSong={activeSong3} />
   {/* <Playlist setActiveSong={setActiveSong} t /> */}
   </Route>
-    
-         
-        </BrowserRouter>
-
-      </div></>
+  </BrowserRouter>
+      </div>
+    </div>
+      
   
     
     );
