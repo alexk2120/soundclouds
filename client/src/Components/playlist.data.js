@@ -12,10 +12,13 @@ const playlist = [
     },
     {
         'name': 'third song',
-        'link': 'https://soundcloud.com/gunna/pushin-p-feat-young-thug'
+        'link': 'https://soundcloud.com/officialmetallica/nothing-else-matters-live-12?si=0517b906a4dd4bb887c2e9eee3ff0afc&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing '
     },
-  
-
+    {
+        'name': 'fourth song',
+        'link': 'https://soundcloud.com/wandw/ww-how-many?si=a7f92f03c4154531ae6d0b0b850e4902&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+    },
+    
 ]
 
 export default playlist

@@ -4,19 +4,21 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-;
-// edit color and styling add Login button
+import { orange } from '@mui/material/colors';
+
+
 function ButtonAppBar(){
 
   return (
-    <Box sx={{ operate: 1, color: "grey" }}>
-      <AppBar position="sticky">
+    <Box sx={{ }}>
+      <AppBar position="center" sx={{ bgcolor: "#242424" }} >
         <Toolbar>
-       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+       <Typography variant="h5" component="div" sx={{ flexGrow: 10 }}>
             Louder Cloud
           </Typography>
-          <Button color="inherit">Login</Button>
-          <Button color="inherit">Sign Up</Button>
+          <Button  sx={{color: "#e65100"}}> Sign In</Button>
+          
+          / <Button  sx={{color: "#e65100"}} >Sign Up</Button>
         </Toolbar>
       </AppBar>
     </Box>
