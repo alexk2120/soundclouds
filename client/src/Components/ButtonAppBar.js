@@ -13,12 +13,12 @@ function ButtonAppBar(){
     <Box sx={{ }}>
       <AppBar position="center" sx={{ bgcolor: "#242424" }} >
         <Toolbar>
-       <Typography variant="h5" component="div" sx={{ flexGrow: 10 }}>
+       <Typography variant="h5" component="div" sx={{ flexGrow: 10, color: "#e65100"  }}>
             Louder Cloud
           </Typography>
           <Button  sx={{color: "#e65100"}}> Sign In</Button>
           
-          / <Button  sx={{color: "#e65100"}} >Sign Up</Button>
+          / <Button  sx={{color: "#e65100"} } >Sign Up</Button>
         </Toolbar>
       </AppBar>
     </Box>
