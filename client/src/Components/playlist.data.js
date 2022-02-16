@@ -1,12 +1,14 @@
 const playlist = [
     {
         'name': 'first song',
-        'link': 'https://soundcloud.com/alex-khatamov/the-perfect-mistake-a-step-in-the-right-direction?si=e14e2ef55d7648398b4e93e4866f28ba&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+        'link':'https://soundcloud.com/alex-khatamov/alex-k-akplay-anthem?si=2abfff84882b4d0f829c47459ddf0336&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' 
+        
+        
     },
     
     {
         'name': 'second song',
-        'link': 'https://soundcloud.com/alex-khatamov/the-perfect-mistake-the-paramedics?si=44ac653c59294e4bb45d7e6474db2e24&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing '
+        'link': 'https://soundcloud.com/alex-khatamov/the-perfect-mistake-a-step-in-the-right-direction?si=e14e2ef55d7648398b4e93e4866f28ba&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
     },
     {
         'name': "third song",
