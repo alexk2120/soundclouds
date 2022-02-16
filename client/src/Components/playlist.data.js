@@ -10,16 +10,20 @@ const playlist = [
     },
     {
         'name': "third song",
-        'link': "https://soundcloud.com/alex-khatamov/friendships-a-title?si=d96864b271114a67a2be3da0f3941f1f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        'link': 'https://soundcloud.com/alex-khatamov/the-perfect-mistake-the-paramedics?si=44ac653c59294e4bb45d7e6474db2e24&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing '
         
         
     },
     {
         'name': 'fourth song',
-        'link': 'https://soundcloud.com/wandw/ww-how-many?si=a7f92f03c4154531ae6d0b0b850e4902&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+        'link': 'https://soundcloud.com/alex-khatamov/friendships-a-title?si=d96864b271114a67a2be3da0f3941f1f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
     },
     {
         "name": 'fifth song',
+        'link': 'https://soundcloud.com/wandw/ww-how-many?si=a7f92f03c4154531ae6d0b0b850e4902&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+    },
+    {
+        "name": 'sixth song',
         'link': 'https://soundcloud.com/steveangello/steve-angello-ft-mako-children-of-the-wildsimon-alex-remix?si=1f0a87969e5344ddb7b5ce43eec1f158&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
     },
 ]

@@ -5,7 +5,7 @@ function Player({activeSong}) {
   return (
     <div>
     <ReactPlayer
-    width="75%" height="100%" style={{margin: 'auto', padding: '20px'}}
+    width= "100%" height="100%" volume={0.25} style={{margin: 'auto', padding: '20px'}}
 
     controls={true}
     url={activeSong.link}
