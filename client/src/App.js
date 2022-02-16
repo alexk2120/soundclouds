@@ -12,6 +12,7 @@ function App() {
     const [activeSong4, setActiveSong4] = useState(playlist[3])
     const [activeSong5, setActiveSong5] = useState(playlist[4])
     const [activeSong6, setActiveSong6] = useState(playlist[5])
+    const [activeSong7, setActiveSong7] = useState(playlist[6])
    
     return (
       <div className="app">
@@ -27,12 +28,13 @@ function App() {
         <Route path="/signin">
             <SignIn />
           </Route>
-      <Route path ="/songs">
+      <Route path ="/">
   <Player activeSong={activeSong} />
   <Player activeSong={activeSong2} />
   <Player activeSong={activeSong3} />
   <Player activeSong={activeSong4} />
   <Player activeSong={activeSong5} />
+  <Player activeSong={activeSong6} />
   
   </Route>
   </BrowserRouter>
