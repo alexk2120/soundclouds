@@ -17,11 +17,12 @@ function App() {
     <div className='app'>
       <div className='content'>
         <ButtonAppBar />
+        <div className="banner">
         <img
           className='concert-img'
           src='./audience-868074-ece4ae4782c50d84f7112d207185f64a821bd40ed1d61e662c8ab98b0693c2fc.png'
           alt='concert'
-        ></img>
+        ></img></div>
 
         <BrowserRouter>
           <Route exact path='/signup'>
@@ -33,6 +34,7 @@ function App() {
             <Player activeSong={activeSong3} />
             <Player activeSong={activeSong4} />
             <Player activeSong={activeSong5} />
+            <Player activeSong={activeSong6} />
           </Route>
           <Route exact path='/'>
             <SignIn />

@@ -20,20 +20,14 @@ input:focus {
 * {
   box-sizing: border-box;
 }
-
+/* .banner {
+max-height: 800px;
+max-width: 100px;
+}, */
 .concert-img { 
-color: #111111;
-text-align: center;
-box-sizing: 0px;
-margin: 0px;
- padding: 0px;
-border: 0px; 
-font-size: 100%;
- font-weight: normal; 
-vertical-align: baseline;
-background: transparent;
- /* max-height: 700px;     */
-max-width: 1800px ;
+
+ max-height: 25%;    
+max-width: 100% ;
 
 }
 .content{  
