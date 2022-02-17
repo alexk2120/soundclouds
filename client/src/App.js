@@ -28,13 +28,13 @@ function App() {
           <Route exact path='/signup'>
             <SignUp />
           </Route>
-          <Route exact path='/songs'>
+          <Route exact path='/'>
             <Player activeSong={activeSong} />
             <Player activeSong={activeSong2} />
             <Player activeSong={activeSong3} />
             <Player activeSong={activeSong4} />
             <Player activeSong={activeSong5} />
-            <Player activeSong={activeSong6} />
+            {/* <Player activeSong={activeSong6} /> */}
           </Route>
           <Route exact path='/'>
             <SignIn />

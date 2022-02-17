@@ -22,12 +22,12 @@ const playlist = [
     },
     {
         "name": 'fifth song',
-        'link': 'https://soundcloud.com/wandw/ww-how-many?si=a7f92f03c4154531ae6d0b0b850e4902&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+        'link': 'https://soundcloud.com/alex-khatamov/the-perfect-mistake-armistice-confessions-from-the-front-lines?si=8724afc09dfb40979814656a90aacd9d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
     },
-    {
-        "name": 'sixth song',
-        'link': 'https://soundcloud.com/steveangello/steve-angello-ft-mako-children-of-the-wildsimon-alex-remix?si=1f0a87969e5344ddb7b5ce43eec1f158&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
-    },
+    // {
+    //     "name": 'sixth song',
+    //     'link': 'https://youtu.be/bc0KhhjJP98'
+    // },
 ]
 
 export default playlist
