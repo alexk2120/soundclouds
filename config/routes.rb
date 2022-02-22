@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  resources :users
+  # resources :users
 
-get '/signup', to: "users#create"
+# get '/signup', to: "users#create"
   
  get '/hello', to: 'application#hello_world' 
   
