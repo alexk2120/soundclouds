@@ -34,9 +34,8 @@ function App() {
             <Player activeSong={activeSong3} />
             <Player activeSong={activeSong4} />
             <Player activeSong={activeSong5} />
-            {/* <Player activeSong={activeSong6} /> */}
           </Route>
-          <Route exact path='/'>
+          <Route exact path='/signin'>
             <SignIn />
           </Route>
         </BrowserRouter>

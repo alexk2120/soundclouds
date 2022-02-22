@@ -16,7 +16,7 @@ function ButtonAppBar(){
        <Typography variant="h5" component="div" sx={{ flexGrow: 10, color: "#e65100"  }}>
             My LouderCloud
           </Typography>
-          <Button sx={{color: "#e65100", }}>  Signed in: ALEX</Button>
+          <Button sx={{color: "#e65100", }}>  Welcome Larissa!!!</Button>
           
           {/* / <Button  sx={{color: "#e65100"} } >Sign Up</Button> */}
         </Toolbar>
