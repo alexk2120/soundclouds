@@ -24,21 +24,12 @@ function App() {
           alt='concert'
         ></img></div>
 
-        <BrowserRouter>
-          {/* <Route exact path='/signup'>
-            <SignUp /> */}
-          {/* </Route> */}
-          {/* <Route exact path='/signin'>
-            <SignIn />
-          </Route> */}
-          <Route  path='/'>
             <Player activeSong={activeSong} />
             <Player activeSong={activeSong2} />
             <Player activeSong={activeSong3} />
             <Player activeSong={activeSong4} />
             <Player activeSong={activeSong5} />
-          </Route>
-        </BrowserRouter>
+         
       </div>
     </div>
   );
