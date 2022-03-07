@@ -1,6 +1,10 @@
 # README
+Outline
+My - SoundClouds is a SoundCloud clone built with Ruby on Rails for the backend, React/Redux for the frontend, and PostgreSQL for the database. It aims to replicate the features and general feel of SoundCloud.
 
-* A soundcloud clone web application built with React frontend and Rails Backend.
+Features
+
+* (Insert GIF/preview)
 
 * deployed on Heroku
 
